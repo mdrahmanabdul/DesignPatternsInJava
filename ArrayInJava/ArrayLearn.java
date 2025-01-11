@@ -20,12 +20,14 @@ public class ArrayLearn {
     }
 
     // Method to traverse the array
-    public static void traverseTheArray(int nums[]) {
+    public static void traverseTheArray(int nums[]) {git 
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
         }
         System.out.println(); // Move to the next line after printing the array
     }
+
+    //learning horizpntal scaling
 
     // Method to insert an element into the array
     public static int[] insertingIntoArray(int nums[], int pos, int element) {
